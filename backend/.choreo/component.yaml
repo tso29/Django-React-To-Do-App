@@ -1,0 +1,11 @@
+schemaVersion: 1.2
+
+endpoints:
+  - name: backend-rest-endpoint
+    displayName: Backend REST Endpoint
+    service:
+      basePath: /django-api
+      port: 8000
+    type: REST
+    networkVisibilities:
+      - Public
