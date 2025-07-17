@@ -4,7 +4,7 @@ endpoints:
   - name: backend-rest-endpoint
     displayName: Backend REST Endpoint
     service:
-      basePath: /django-api
+      basePath: /
       port: 8000
     type: REST
     networkVisibilities:
